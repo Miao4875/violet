@@ -1,0 +1,29 @@
+history:
+  name: file_history
+  config:
+    path: ./data/chat_history.jsonl
+
+logger:
+  name: text_logger
+  config:
+    path: ./data/event_log.txt
+
+provider:
+  name: deepseek_provider
+  config:
+    api_key_env: DEEPSEEK_API_KEY
+    base_url: https://api.deepseek.com
+    model: deepseek-v4-flash
+    timeout_seconds: 60
+
+agent:
+  name: poet_agent
+  config:
+    style: classic
+    model: deepseek-v4-flash
+    temperature: 0.7
+    max_tokens: 400
+
+runtime:
+  plugin_dir: ./plugins
+  session_prefix: local

@@ -1,0 +1,119 @@
+session=local-c8cd29c3
+{
+{type:session,action:session.start,role:system,message:None,meta:{}}
+{type:message,action:message.user,role:user,message:写一首关于清晨的诗,meta:{'history_role': 'user'}}
+{type:agent,action:agent.start,role:PoetAgent,message:None,meta:{'task': '写一首关于清晨的诗'}}
+	{type:message,action:message.agent,role:PoetAgent,message:题目：写一首关于清晨的诗
+风把任务轻轻摊开成纸，
+字句沿着目标慢慢成诗。
+若你问此行最终为何物，
+便把答案写进眼前此时。,meta:{'style': 'classic', 'source': 'poet_agent', 'history_role': 'agent'}}
+{type:agent,action:agent.finish,role:PoetAgent,message:None,meta:{'done': True}}
+{type:session,action:session.finish,role:system,message:None,meta:{'done': True}}
+{type:session,action:session.result,role:system,message:题目：写一首关于清晨的诗
+风把任务轻轻摊开成纸，
+字句沿着目标慢慢成诗。
+若你问此行最终为何物，
+便把答案写进眼前此时。}
+}
+session=local-63f5d75a
+{
+{type:session,action:session.start,role:system,message:None,meta:{}}
+{type:message,action:message.user,role:user,message:写一首关于海风的诗,meta:{'history_role': 'user'}}
+{type:agent,action:agent.start,role:PoetAgent,message:None,meta:{'task': '写一首关于海风的诗'}}
+session=local-f0c5e20c
+{
+{type:session,action:session.start,role:system,message:None,meta:{}}
+{type:message,action:message.user,role:user,message:12,meta:{'history_role': 'user'}}
+{type:agent,action:agent.start,role:PoetAgent,message:None,meta:{'task': '12'}}
+	{type:message,action:message.agent,role:PoetAgent,message:钟面锈蚀了十二次回旋，  
+雪落在十二月的指间。  
+子夜与正午在刻度上交汇，  
+而时间依然冰冷如弦。,meta:{'style': 'classic', 'source': 'poet_agent', 'provider_meta': {'provider': 'deepseek', 'model': 'deepseek-v4-flash', 'usage': {'prompt_tokens': 51, 'completion_tokens': 192, 'total_tokens': 243, 'prompt_tokens_details': {'cached_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 154}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 51}}, 'history_role': 'agent'}}
+{type:agent,action:agent.finish,role:PoetAgent,message:None,meta:{'done': True}}
+{type:session,action:session.finish,role:system,message:None,meta:{'done': True}}
+{type:session,action:session.result,role:system,message:钟面锈蚀了十二次回旋，  
+雪落在十二月的指间。  
+子夜与正午在刻度上交汇，  
+而时间依然冰冷如弦。}
+}
+session=local-2771831b
+{
+{type:session,action:session.start,role:system,message:None,meta:{}}
+{type:message,action:message.user,role:user,message:睡觉,meta:{'history_role': 'user'}}
+{type:agent,action:agent.start,role:PoetAgent,message:None,meta:{'task': '睡觉'}}
+	{type:message,action:message.agent,role:PoetAgent,message:睡眠是温柔的潮水  
+漫过意识的堤岸  
+梦的鱼群游弋在  
+合拢的眼睑深处,meta:{'style': 'classic', 'source': 'poet_agent', 'provider_meta': {'provider': 'deepseek', 'model': 'deepseek-v4-flash', 'usage': {'prompt_tokens': 51, 'completion_tokens': 81, 'total_tokens': 132, 'prompt_tokens_details': {'cached_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 55}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 51}}, 'history_role': 'agent'}}
+{type:agent,action:agent.finish,role:PoetAgent,message:None,meta:{'done': True}}
+{type:session,action:session.finish,role:system,message:None,meta:{'done': True}}
+{type:session,action:session.result,role:system,message:睡眠是温柔的潮水  
+漫过意识的堤岸  
+梦的鱼群游弋在  
+合拢的眼睑深处}
+}
+session=local-614c0aa8
+{
+{type:session,action:session.start,role:system,message:None,meta:{}}
+{type:message,action:message.user,role:user,message:123,meta:{'history_role': 'user'}}
+{type:agent,action:agent.start,role:PoetAgent,message:None,meta:{'task': '123'}}
+	{type:message,action:message.agent,role:PoetAgent,message:一，二，三——寂静  
+在第四根弦上  
+断裂。你数着  
+雨滴落进空杯,meta:{'style': 'classic', 'source': 'poet_agent', 'provider_meta': {'provider': 'deepseek', 'model': 'deepseek-v4-flash', 'usage': {'prompt_tokens': 51, 'completion_tokens': 379, 'total_tokens': 430, 'prompt_tokens_details': {'cached_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 352}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 51}}, 'history_role': 'agent'}}
+{type:agent,action:agent.finish,role:PoetAgent,message:None,meta:{'done': True}}
+{type:session,action:session.finish,role:system,message:None,meta:{'done': True}}
+{type:session,action:session.result,role:system,message:一，二，三——寂静  
+在第四根弦上  
+断裂。你数着  
+雨滴落进空杯}
+}
+session=local-ccac4bc6
+{
+{type:session,action:session.start,role:system,message:None,meta:{}}
+{type:message,action:message.user,role:user,message:睡觉,meta:{'history_role': 'user'}}
+{type:agent,action:agent.start,role:PoetAgent,message:None,meta:{'task': '睡觉'}}
+	{type:message,action:message.agent,role:PoetAgent,message:黑暗将你轻轻抱起，  
+像海收起疲倦的云。  
+梦里漂流着一整夜，  
+醒来时枕边有月光。,meta:{'style': 'classic', 'source': 'poet_agent', 'provider_meta': {'provider': 'deepseek', 'model': 'deepseek-v4-flash', 'usage': {'prompt_tokens': 51, 'completion_tokens': 103, 'total_tokens': 154, 'prompt_tokens_details': {'cached_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 73}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 51}}, 'history_role': 'agent'}}
+{type:agent,action:agent.finish,role:PoetAgent,message:None,meta:{'done': True}}
+{type:session,action:session.finish,role:system,message:None,meta:{'done': True}}
+{type:session,action:session.result,role:system,message:黑暗将你轻轻抱起，  
+像海收起疲倦的云。  
+梦里漂流着一整夜，  
+醒来时枕边有月光。}
+}
+session=local-e19fa288
+{
+{type:session,action:session.start,role:system,message:None,meta:{}}
+{type:message,action:message.user,role:user,message:睡觉,meta:{'history_role': 'user'}}
+{type:agent,action:agent.start,role:PoetAgent,message:None,meta:{'task': '睡觉'}}
+	{type:message,action:message.agent,role:PoetAgent,message:床是夜风中的一叶舟，
+梦的鳞片在黑暗中浮游。
+枕边的时间缓缓弯曲，
+我的呼吸，泊在寂静的深喉。,meta:{'style': 'classic', 'source': 'poet_agent', 'provider_meta': {'provider': 'deepseek', 'model': 'deepseek-v4-flash', 'usage': {'prompt_tokens': 51, 'completion_tokens': 77, 'total_tokens': 128, 'prompt_tokens_details': {'cached_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 42}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 51}}, 'history_role': 'agent'}}
+{type:agent,action:agent.finish,role:PoetAgent,message:None,meta:{'done': True}}
+{type:session,action:session.finish,role:system,message:None,meta:{'done': True}}
+{type:session,action:session.result,role:system,message:床是夜风中的一叶舟，
+梦的鳞片在黑暗中浮游。
+枕边的时间缓缓弯曲，
+我的呼吸，泊在寂静的深喉。}
+}
+session=local-4f88e781
+{
+{type:session,action:session.start,role:system,message:None,meta:{}}
+{type:message,action:message.user,role:user,message:睡觉,meta:{'history_role': 'user'}}
+{type:agent,action:agent.start,role:PoetAgent,message:None,meta:{'task': '睡觉'}}
+	{type:message,action:message.agent,role:PoetAgent,message:枕边浮起月光的潮  
+呼吸化作青瓷的薄雾  
+睫毛轻掩，黑暗里  
+梦的根须悄悄生长,meta:{'style': 'classic', 'source': 'poet_agent', 'provider_meta': {'provider': 'deepseek', 'model': 'deepseek-v4-flash', 'usage': {'prompt_tokens': 51, 'completion_tokens': 149, 'total_tokens': 200, 'prompt_tokens_details': {'cached_tokens': 0}, 'completion_tokens_details': {'reasoning_tokens': 119}, 'prompt_cache_hit_tokens': 0, 'prompt_cache_miss_tokens': 51}}, 'history_role': 'agent'}}
+{type:agent,action:agent.finish,role:PoetAgent,message:None,meta:{'done': True}}
+{type:session,action:session.finish,role:system,message:None,meta:{'done': True}}
+{type:session,action:session.result,role:system,message:枕边浮起月光的潮  
+呼吸化作青瓷的薄雾  
+睫毛轻掩，黑暗里  
+梦的根须悄悄生长}
+}

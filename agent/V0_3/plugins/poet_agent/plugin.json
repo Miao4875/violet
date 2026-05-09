@@ -1,0 +1,6 @@
+{
+  "name": "poet_agent",
+  "version": "0.1.0",
+  "entry": "plugin.py",
+  "provides": ["agent"]
+}
