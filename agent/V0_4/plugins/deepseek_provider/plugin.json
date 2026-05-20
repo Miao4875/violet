@@ -1,0 +1,6 @@
+{
+  "name": "deepseek_provider",
+  "version": "0.1.0",
+  "entry": "register_provider.py",
+  "provides": ["provider"]
+}

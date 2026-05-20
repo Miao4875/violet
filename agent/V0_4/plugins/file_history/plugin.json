@@ -1,0 +1,6 @@
+{
+  "name": "file_history",
+  "version": "0.1.0",
+  "entry": "register_history.py",
+  "provides": ["history"]
+}

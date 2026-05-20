@@ -1,0 +1,6 @@
+{
+  "name": "text_logger",
+  "version": "0.1.0",
+  "entry": "register_logger.py",
+  "provides": ["logger"]
+}

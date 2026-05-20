@@ -1,0 +1,40 @@
+history:
+  name: file_history
+  config:
+    path: ./data/memory/chat_history.jsonl
+
+logger:
+  name: text_logger
+  config:
+    path: ./data/logs/event_log.txt
+
+provider:
+  name: deepseek_provider
+  config:
+    api_key_env: DEEPSEEK_API_KEY
+    base_url: https://api.deepseek.com
+    model: deepseek-v4-flash
+    timeout_seconds: 60
+
+router:
+  fallback_message: NO_TOOL_MATCHED
+  model: deepseek-v4-flash
+  temperature: 0.0
+  max_tokens: 300
+
+tools:
+  bilibili_command_tool:
+    description: Handle bilibili video, hot, summary, and search tasks.
+    record_path: ./data/results/bilibili_titles.jsonl
+    opencli_command: opencli
+    timeout_seconds: 30
+    default_limit: 20
+    model: deepseek-v4-flash
+
+runtime:
+  plugin_dir: ./plugins
+  session_prefix: local
+  job_registry:
+    path: ./data/registry/job_registry.json
+    cache_dir: ./data/artifacts/job_cache
+    history_path: ./data/registry/job_history.jsonl

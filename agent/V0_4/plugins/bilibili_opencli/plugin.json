@@ -1,0 +1,6 @@
+{
+  "name": "bilibili_opencli",
+  "version": "0.1.0",
+  "entry": "register_tool.py",
+  "provides": ["tool"]
+}

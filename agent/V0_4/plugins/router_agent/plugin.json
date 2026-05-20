@@ -1,0 +1,6 @@
+{
+  "name": "router_agent",
+  "version": "0.1.0",
+  "entry": "register_agent.py",
+  "provides": ["agent"]
+}

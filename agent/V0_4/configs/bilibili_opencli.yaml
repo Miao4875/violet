@@ -1,0 +1,29 @@
+history:
+  name: file_history
+  config:
+    path: ./data/memory/chat_history.jsonl
+
+logger:
+  name: text_logger
+  config:
+    path: ./data/logs/event_log.txt
+
+agent:
+  name: intent_router_agent
+  config:
+    fallback_message: 当前没有匹配到可执行工具。
+    tools:
+      bilibili_command_tool:
+        description: 处理 B 站视频链接、热门视频和总结类任务，并记录标题。
+        record_path: ./data/results/bilibili_titles.jsonl
+        opencli_command: opencli
+        timeout_seconds: 30
+        default_limit: 20
+
+runtime:
+  plugin_dir: ./plugins
+  session_prefix: bilibili
+  job_registry:
+    path: ./data/registry/job_registry.json
+    cache_dir: ./data/artifacts/job_cache
+    history_path: ./data/registry/job_history.jsonl
